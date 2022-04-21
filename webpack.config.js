@@ -47,6 +47,7 @@ Encore
 
     .configureBabel((config) => {
         config.plugins.push('@babel/plugin-proposal-class-properties');
+        config.presets.push('@babel/preset-react');
     })
 
     // enables @babel/preset-env polyfills
